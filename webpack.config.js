@@ -98,8 +98,8 @@ const config = {
     plugins: [
         extractSass,
         new HtmlWebpackPlugin({
-            filename: './index.html',
-            template: './index.html',
+            filename: './main.html',
+            template: './main.html',
         })
 
     ],

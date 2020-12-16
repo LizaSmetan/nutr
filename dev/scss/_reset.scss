@@ -14,7 +14,6 @@ body{
   color: $defaultColor;
   overflow-x: hidden;
   background: $defaultBgColor;
-  letter-spacing: 0.04em;
 }
 h1, h2, h3, h4, h5, h6{
   margin: 0;
@@ -22,7 +21,6 @@ h1, h2, h3, h4, h5, h6{
 }
 p{
   margin: 0;
-  font-style: italic;
 }
 ul, ol{
   margin: 0;
