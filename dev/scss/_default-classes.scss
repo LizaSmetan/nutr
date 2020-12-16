@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.text-align-center {
+  text-align: center;
+}
+.justify-sp-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-sp-around {
+  justify-content: space-around;
+}
+.justify-sp-evenly {
+  justify-content: space-evenly;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.width100vw {
+  width: 100vw;
+}
+.height100vh {
+  height: 100vh;
+}
+
+.title.big {
+  font-size: 3.25rem;
+  font-weight: bold;
+  line-height: 1.28em;
+}
