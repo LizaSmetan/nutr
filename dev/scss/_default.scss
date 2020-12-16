@@ -1,0 +1,26 @@
+._container{
+  max-width: calc(1344px + 2rem);
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.has_feedback{
+  position: relative;
+  .feedback{
+    position: absolute;
+    background:transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #333333;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-control{
+    padding-left: 3rem;
+  }
+}
