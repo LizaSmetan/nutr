@@ -32,8 +32,44 @@
   height: 100vh;
 }
 
+// DEFAULT COMPONENT START
+
+button {
+  padding: 9px 1px 14px;
+  background-color: $defaultColor;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 1.25rem;
+  font-weight: $extraBold;
+  color: #fff;
+  line-height: 1.4em;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: $extraBold;
+  padding: 50px 50px 0;
+}
+
 .title.big {
   font-size: 3.25rem;
-  font-weight: bold;
   line-height: 1.28em;
 }
+
+.small-menu {
+  font-size: 0.875rem;
+  color: #9C88BF;
+  line-height: 2em;
+  padding: 30px 50px 0;
+  i {
+    padding: 0 8px;
+    transform: translateY(1.8px);
+  }
+  &.detailed {
+    color: #fff;
+  }
+}
+
+
+// DEFAULT COMPONENT END
+

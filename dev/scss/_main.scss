@@ -9,8 +9,17 @@
 
 .onko-section, .rehabilitation-section {
   width: 50%;
+  height: 200px;
 }
 
 .type-info-block {
   background: url("../img/main_bg.jpg") no-repeat center / cover;
+}
+
+.type-info-block .button-section {
+  text-align: center;
+  padding-top: 60px;
+}
+.type-info-block button {
+  width: 220px;
 }

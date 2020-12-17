@@ -100,7 +100,11 @@ const config = {
         new HtmlWebpackPlugin({
             filename: './index.html',
             template: './index.html',
-        })
+        }),
+        // new HtmlWebpackPlugin({
+        //     filename: './article.html',
+        //     template: './article.html',
+        // })
 
     ],
     devServer: {
