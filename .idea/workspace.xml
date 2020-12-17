@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3a66e7a-82b7-425e-b921-9a7239b305e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standart-block-henrik.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/_default-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_default-classes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/scss/_header-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_header-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standart-block-henrik.html" beforeDir="false" afterPath="$PROJECT_DIR$/standart-block-henrik.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,16 @@
       <recent name="D:\web\nutridrink\nutr" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="standart_block_henrik.html" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/nutr/standart-block-henrik.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.standart_block_henrik.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,7 +88,7 @@
       <workItem from="1608140215708" duration="1286000" />
       <workItem from="1608141918944" duration="1703000" />
       <workItem from="1608154146739" duration="330000" />
-      <workItem from="1608196231242" duration="11674000" />
+      <workItem from="1608196231242" duration="23856000" />
     </task>
     <servers />
   </component>
@@ -96,5 +105,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="112" key="#standart-block-henrik.html" timestamp="1608216722090">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="112" key="#standart-block-henrik.html/0.0.1707.920@0.0.1707.920" timestamp="1608216722090" />
+    <state x="563" y="193" width="581" height="534" key="find.popup" timestamp="1608210963685">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="563" y="193" width="581" height="534" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1608210963685" />
   </component>
 </project>
