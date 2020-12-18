@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3a66e7a-82b7-425e-b921-9a7239b305e2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/article-det.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/_default-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_default-classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/_header-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_header-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/standart-block-henrik.html" beforeDir="false" afterPath="$PROJECT_DIR$/standart-block-henrik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,8 @@
       <workItem from="1608140215708" duration="1286000" />
       <workItem from="1608141918944" duration="1703000" />
       <workItem from="1608154146739" duration="330000" />
-      <workItem from="1608196231242" duration="23856000" />
+      <workItem from="1608196231242" duration="26175000" />
+      <workItem from="1608280004736" duration="23596000" />
     </task>
     <servers />
   </component>
@@ -105,6 +107,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="634" y="112" key="#standart-block-henrik.html" timestamp="1608216722090">
