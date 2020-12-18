@@ -196,6 +196,13 @@
     max-width: 1344px;
     left: 50%;
     transform: translateX(-50%);
+
+  }
+  &.content_max_border{
+    &::after{
+      max-width: none;
+
+    }
   }
 }
 .footer{

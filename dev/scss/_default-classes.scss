@@ -34,7 +34,7 @@
 
 // DEFAULT COMPONENT START
 
-button {
+.button {
   padding: 9px 1px 14px;
   background-color: $defaultColor;
   border-radius: 8px;
@@ -43,12 +43,17 @@ button {
   font-weight: $extraBold;
   color: #fff;
   line-height: 1.4em;
+  transition: $transition;
+  &:hover{
+    opacity: .8;
+    transition: $transition;
+  }
 }
 
 .title {
   font-size: 2rem;
   font-weight: $extraBold;
-  padding: 50px 50px 0;
+  padding-top: 50px;
 }
 
 .title.big {
@@ -60,7 +65,7 @@ button {
   font-size: 0.875rem;
   color: #9C88BF;
   line-height: 2em;
-  padding: 30px 50px 0;
+  padding-top: 30px;
   i {
     padding: 0 8px;
     transform: translateY(1.8px);
@@ -73,8 +78,9 @@ button {
 // HASHTAG BLOCK SECTION
 
 .hashtag-block-section {
-  padding: 30px 50px 0;
+  padding-top: 30px;
   font-weight: $medium;
+  margin-bottom: -1rem;
   .hashtag-box {
     height: 40px;
     border: 1px $defaultColor solid;
@@ -82,15 +88,10 @@ button {
     flex-direction: column;
     justify-content: center;
     border-radius: 8px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     span {
       padding: 0 9px 0;
-    }
-    & + .hashtag-box {
-      margin-left: 17px;
-    }
-    &.short {
-      width: 100px;
-      text-align: center;
     }
   }
 }
@@ -100,19 +101,34 @@ button {
 .four-articles-section {
 
   & .article-section-column {
-    width: 277px;
+    display: block;
+    width: 100%;
     margin: auto;
     padding-top: 64px;
+    transition: $transition;
+    max-width: 18rem;
+
+    &:hover{
+      filter: brightness(.8);
+      transition: $transition;
+    }
     .image-section {
-      height: 312px;
+      height: 19.5rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      border-radius: .5rem;
+      overflow: hidden;
+      img{
+        object-fit: cover;
+        max-width: none;
+      }
     }
 
     .text-section {
-      height: 54px;
-      padding-top: 15px;
+      height: 4.3rem;
+      overflow: hidden;
+      margin-top: 15px;
       font-weight: $medium;
     }
   }
