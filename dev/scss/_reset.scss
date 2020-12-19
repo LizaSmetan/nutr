@@ -4,6 +4,9 @@
 }
 html{
   font-size: $defaultFont;
+  @media (max-width: $extraMini) {
+    font-size: $defaultFont - 2px;
+  }
 }
 body{
   margin: 0;

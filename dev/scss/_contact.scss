@@ -1,0 +1,139 @@
+.contact_page{
+  background: url("../img/contact_bg.jpg") no-repeat top right / cover;
+  @media (max-width: $sm) {
+    background: url("../img/contact_mobile_bg.jpg") no-repeat top right / auto #D1CCF8;
+  }
+  .contact_form_wrap{
+    padding: 2.75rem 0 4.3rem;
+    .contact_form_speaker{
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 2.8rem;
+      flex-wrap: wrap;
+      .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 11.25rem;
+        height: 11.25rem;
+        min-width: 11.25rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 3.125rem;
+        img{
+          max-width: none;
+          object-fit: cover;
+          width: 100%;
+        }
+        @media (max-width: $sm) {
+          width: 4rem;
+          height: 4rem;
+          min-width: 4rem;
+          margin-right: 1.25rem;
+        }
+      }
+      .info{
+        width: calc(100% - 14.375rem);
+        max-width: 20rem;
+        @media (max-width: $sm) {
+          width: calc(100% - 5.25rem);
+        }
+        h6{
+          margin-bottom: .5rem;
+        }
+        p{
+          margin-bottom: .8rem;
+        }
+      }
+      .info_bot{
+        max-width: 25rem;
+      }
+    }
+    .contact_form{
+      background: rgba(255, 255, 255, .3);
+      border-radius: .5rem;
+      padding: 1rem 1.5rem 2rem;
+      @media (max-width: $sm) {
+        padding: 1rem;
+      }
+      .contact_form_title{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        @media (max-width: $sm) {
+          flex-direction: column;
+        }
+        .img{
+          width: 2.75rem;
+          min-width: 2.75rem;
+          margin-right: 1rem;
+          @media (max-width: $sm) {
+            margin-right: 0;
+            margin-bottom: 1rem;
+          }
+        }
+        h5{
+          font-size: 1.25rem;
+          margin-bottom: 0;
+        }
+      }
+      .form-control{
+        background: #B7AADB;
+        border-color: #B7AADB;
+        color: #fff;
+        &::-moz-placeholder {
+          color: #fff;
+        }
+        &::-webkit-input-placeholder { color: #fff; }
+        &:-ms-input-placeholder { color: #fff; }
+        &::-ms-input-placeholder { color: #fff; }
+        &::placeholder { color: #fff; }
+      }
+      textarea{
+        resize: none;
+      }
+      .btn{
+        border-radius: .5rem;
+      }
+    }
+  }
+  .faq_items_list{
+    padding-bottom: 2.75rem;
+    .faq_item{
+      border-radius: .5rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      background: #DFDBFA;
+      margin-bottom: 2.25rem;
+      h6{
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+      }
+      .faq_item_top{
+        padding: 1.125rem 1.25rem 1.5rem;
+        flex-grow: 1;
+        position: relative;
+        .faq-icon-question{
+          color: #4A2A80;
+          opacity: 0.1;
+          font-size: 3rem;
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          font-weight: $extraBold;
+          font-style: normal;
+          line-height: 1;
+        }
+      }
+      .faq_item_bottom{
+        padding: 1.125rem 1.25rem 1.5rem;
+        background: #4A2A80;
+        color: #fff;
+      }
+    }
+  }
+}

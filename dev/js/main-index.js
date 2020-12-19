@@ -27,7 +27,35 @@ $().ready(function () {
         slidesToShow: 6,
         dots: false,
         arrows: true,
-        infinite: false
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+        ]
+    });
+    $('.top_slider_2_js').slick({
+        slidesToShow: 3,
+        dots: false,
+        arrows: true,
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+        ]
     });
 
     $('.select2').select2({

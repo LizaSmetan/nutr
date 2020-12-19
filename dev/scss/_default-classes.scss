@@ -71,6 +71,10 @@
   font-size: 2rem;
   font-weight: $extraBold;
   padding-top: 50px;
+  @media (max-width: $sm) {
+    font-size: 1.5rem;
+    padding-top: 1.25rem;
+  }
 }
 
 .title.big {
@@ -101,6 +105,14 @@
   font-weight: $medium;
   font-size: 0.875rem;
  margin-bottom: -1rem;
+  flex-wrap: wrap;
+  @media (max-width: $md) {
+    flex-wrap: nowrap;
+    margin-right: -1rem;
+    width: calc(100% + 1rem);
+    overflow: auto;
+    padding-top: 1.25rem;
+  }
   .hashtag-box {
     height: 40px;
     border: 1px $defaultColor solid;
@@ -110,6 +122,9 @@
     border-radius: 8px;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    @media (max-width: $md) {
+      white-space: nowrap;
+    }
     span {
       padding: 0 9px 0;
     }
@@ -128,6 +143,9 @@
     transition: $transition;
     max-width: 18rem;
 
+    @media (max-width: $mini) {
+      padding-top: 1.8rem;
+    }
     &:hover{
       filter: brightness(.8);
       transition: $transition;
@@ -139,8 +157,15 @@
       justify-content: center;
       border-radius: .5rem;
       overflow: hidden;
+      @media (max-width: $lg) {
+        height: 12.5rem;
+      }
+      @media (max-width: $mini) {
+        height: 10rem;
+      }
       img{
         object-fit: cover;
+        width: 100%;
         max-width: none;
       }
     }

@@ -1,9 +1,13 @@
 .videos_page{
-  background: url("../img/video_bg.jpg") no-repeat center / cover;
+  background: url("../img/video_bg.jpg") no-repeat top right / cover;
+  @media (max-width: $sm) {
+    background: url("../img/video_mobile_bg.jpg") no-repeat top right / auto #D1CCF8;
+  }
   .video_item{
     display: flex;
     flex-direction: column;
     margin-top: 3.875rem;
+    width: 100%;
     .video_item_btn{
       padding: 0;
       overflow: hidden;
@@ -44,6 +48,7 @@
         color: #fff;
         padding: 1rem 2.25rem;
         text-align: left;
+        width: 100%;
       }
       &:hover{
         i{
