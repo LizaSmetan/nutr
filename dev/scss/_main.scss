@@ -9,7 +9,6 @@
 
 .onko-section, .rehabilitation-section {
   width: 50%;
-  height: 200px;
 }
 
 .type-info-block {
@@ -28,4 +27,78 @@
 
 .first-article-section {
   padding-bottom: 90px;
+}
+
+// ARTICLE DIET SECTION
+
+.article-diet-page {
+  background: url("../img/article-diet_bg.jpg") no-repeat top / cover;
+  background-size: 100% 729px;
+  position: relative;
+
+
+  .gradient-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, $defaultBgColor, transparent);
+    height: 729px;
+  }
+  .article-diet-section {
+    max-width: 816px;
+    margin: auto;
+    position: relative;
+    .title-section {
+      .title {
+        padding: 388px 0 0;
+      }
+    }
+    .hashtag-block-section {
+      padding: 13px 0 0;
+    }
+    .text-section {
+      padding-top: 35px;
+      .products-list {
+        padding: 30px 0 16px;
+        li + li {
+          padding-top: 19px;
+        }
+        i {
+          font-size: 0.3125rem;
+          line-height: 1.3rem;
+          vertical-align: bottom;
+        }
+      }
+    }
+    .share-section {
+      padding-top: 40px;
+      .button-section {
+
+      }
+    }
+
+    .recommended-links-section {
+      .title-section {
+        .title {
+          font-size: 1.25rem;
+          padding: 80px 0 0;
+        }
+      }
+      .recommended-column {
+        width: 20%;
+        margin: 30px 0 77px;
+        font-weight: $extraBold;
+        .image-section {
+          height: 178.88px;
+          border-radius: 8px;
+          overflow: hidden;
+          text-align: center;
+        }
+        .text-section {
+          padding-top: 10px;
+        }
+      }
+    }
+  }
 }

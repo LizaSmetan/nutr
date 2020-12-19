@@ -43,12 +43,29 @@
   font-weight: $extraBold;
   color: #fff;
   line-height: 1.4em;
-  transition: $transition;
+ transition: $transition;
   &:hover{
     opacity: .8;
     transition: $transition;
   }
+  &.long-button {
+    padding: 11px 1px 11px;
+    width: 335px;
+    font-size: 1.125rem;
+    img {
+      padding-left: 20px;
+      transform: translateY(-1.2px);
+    }
+    &.light {
+      background-color: #9C88BF;
+    }
+    &:hover {
+      background-color: $defaultColor;
+      transition: linear 0.4s;
+    }
+  }
 }
+
 
 .title {
   font-size: 2rem;
@@ -72,6 +89,8 @@
   }
   &.detailed {
     color: #fff;
+    z-index: 999;
+    position: relative;
   }
 }
 
@@ -80,7 +99,8 @@
 .hashtag-block-section {
   padding-top: 30px;
   font-weight: $medium;
-  margin-bottom: -1rem;
+  font-size: 0.875rem;
+ margin-bottom: -1rem;
   .hashtag-box {
     height: 40px;
     border: 1px $defaultColor solid;
