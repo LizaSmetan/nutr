@@ -97,14 +97,34 @@ const config = {
     },
     plugins: [
         extractSass,
-        // new HtmlWebpackPlugin({
-        //     filename: './index.html',
-        //     template: './index.html',
-        // }),
         new HtmlWebpackPlugin({
             filename: './index.html',
             template: './index.html',
-        })
+        }),
+        new HtmlWebpackPlugin({
+            filename: './article.html',
+            template: './article.html',
+        }),
+        new HtmlWebpackPlugin({
+            filename: './article-det.html',
+            template: './article-det.html',
+        }),
+        new HtmlWebpackPlugin({
+            filename: './standart-block-henrik.html',
+            template: './standart-block-henrik.html',
+        }),
+        new HtmlWebpackPlugin({
+            filename: './videos.html',
+            template: './videos.html',
+        }),
+        new HtmlWebpackPlugin({
+            filename: './product.html',
+            template: './product.html',
+        }),
+        new HtmlWebpackPlugin({
+            filename: './mainpage1.html',
+            template: './mainpage1.html',
+        }),
 
     ],
     devServer: {

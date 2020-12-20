@@ -27,6 +27,7 @@
 
 .first-article-section {
   padding-bottom: 90px;
+
 }
 
 // ARTICLE DIET SECTION
@@ -51,7 +52,7 @@
     position: relative;
     .title-section {
       .title {
-        padding: 388px 0 0;
+        padding: 380px 0 0;
       }
     }
     .hashtag-block-section {
@@ -100,5 +101,229 @@
         }
       }
     }
+  }
+}
+
+// PRODUCT SECTION
+
+.product-section {
+  .select-buy-section {
+    background: url("../img/product-bg.jpg"), no-repeat center / cover;
+    padding: 0 3rem 0;
+    .column-select-buy-section {
+      padding: 3.125rem 0 6.185rem;
+
+      .product-img-section {
+        width: 50%;
+
+        .product-short-info {
+
+          .volume-section {
+            font-size: 2.25rem;
+            color: #CF137D;
+            position: absolute;
+            top: -3.9rem;
+            left: 3rem;
+
+            .left-rotate {
+              transform: rotate(-7.69deg);
+              display: inline-block;
+            }
+            .center-value {
+              transform: translateY(-.1rem);
+              display: inline-block;
+            }
+            .right-rotate {
+              transform: rotate(7.88deg);
+              display: inline-block;
+            }
+            span {
+              transform: rotate(22.76deg) translateY(.4rem);
+              font-size: .875rem;
+              display: inline-block;
+              font-weight: $extraBold;
+            }
+          }
+
+        }
+
+        .circle-info {
+          transform: translateY(2.5rem);
+          position: relative;
+
+          .oval-border {
+            position: absolute;
+            height: 13.5rem;
+            max-width: 12.5rem;
+            top: -20px;
+            left: -11px;
+          }
+
+        }
+      }
+
+      .product-buy-section {
+        width: 34.8125rem;
+        .select_wrap {
+          max-width: 20.6rem;
+          margin-bottom: 2rem;
+        }
+        
+        .selected-taste-section {
+          border-radius: 8px;
+          overflow: hidden;
+            .taste {
+              color: #fff;
+              width: 50%;
+              background-color: #CF137D;
+              i {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                background-color: #fff;
+                position: relative;
+                border-radius: 50%;
+                margin: 0 20px 0;
+                img {
+                  position: absolute;
+                  top: 25%;
+                  left: 25%;
+                }
+                }
+
+              .type {
+                font-size: 1.125rem;
+                margin-top: 10px;
+                display: inline-block;
+              }
+            }
+        }
+        .border-mini-section {
+          width: 9.375rem;
+          height: 1.5rem;
+          border: 1px solid #fff;
+          border-radius: 16px;
+          margin: 8px 0 14px 55px;
+          font-size: 0.875rem;
+          font-weight: $extraBold;
+        }
+
+        .taste-short-info {
+          background-color: #E3C8FD;
+          width: 50%;
+          padding: 18px 15px 14px;
+        }
+
+        .buy-and-price-section {
+          width: 100%;
+          max-width: 20.6rem;
+          padding: 50px 0 38px;
+          .product-name-price-section {
+            font-size: 1.5rem;
+          }
+          .product-price {
+            .old-price {
+              white-space: nowrap;
+              font-size: 1rem;
+              color: #fff;
+              text-align: right;
+              text-decoration: line-through;
+            }
+            .discount-price {
+              white-space: nowrap;
+            }
+          }
+          .button-section {
+            padding-top: 1.25rem;
+            .button {
+              width: 100%;
+              font-size: 1.125rem;
+            }
+          }
+
+        }
+
+        .text-section {
+          p + p {
+            margin-top: 1rem;
+          }
+        }
+
+      }
+
+    }
+  }
+  .product-info-section {
+    padding: 0 3.125rem 5.625rem;
+    .title-section {
+      padding-top: 1.56rem;
+      max-width: 607px;
+    }
+    .nutrition-section {
+
+      .nutrition-info {
+        width: 12rem;
+      }
+      .icon-section {
+        margin: auto;
+      }
+    }
+
+    .instruction-and-contraindication-section {
+
+      ul {
+        padding-top: 4rem;
+      }
+
+      .circle-list {
+        display: inline-block;
+        background-color: #E3C8FD;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 2rem;
+        margin-right: 1rem;
+      }
+
+      .instruction-section {
+        width: 40%;
+
+        .instruction-list {
+          li + li {
+            padding-top: 2rem;
+          }
+          .circle-list {
+            height: 2rem;
+            width: 2rem;
+          }
+        }
+      }
+      .contraindication-section {
+        width: 40%;
+
+        .contraindication-list {
+          li + li {
+            padding-top: 1rem;
+          }
+          .circle-list {
+            height: 0.375rem;
+            width: 0.375rem;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+
+  }
+  .additional-info-section {
+    background-color: #fff;
+    padding: 2.5rem 0 3.125rem;
+    .text-section {
+      max-width: 50rem;
+      margin: auto;
+      p + p {
+        margin-top: 1rem;
+      }
+    }
+
   }
 }
